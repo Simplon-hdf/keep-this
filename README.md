@@ -1,8 +1,8 @@
-![GitHub contributors](https://img.shields.io/github/contributors/ValerieRas/keep-this?style=for-the-badge)
-![GitHub forks](https://img.shields.io/github/forks/ValerieRas/keep-this?style=for-the-badge)
-![GitHub stars](https://img.shields.io/github/stars/ValerieRas/keep-this?style=for-the-badge)
-![GitHub issues](https://img.shields.io/github/issues/ValerieRas/keep-this?style=for-the-badge)
-![GitHub license](https://img.shields.io/github/license/ValerieRas/keep-this?style=for-the-badge)
+![GitHub contributors](https://img.shields.io/github/contributors/Simplon-hdf/structure-projet?style=for-the-badge)
+![GitHub forks](https://img.shields.io/github/forks/Simplon-hdf/structure-projet?style=for-the-badge)
+![GitHub stars](https://img.shields.io/github/stars/Simplon-hdf/structure-projet?style=for-the-badge)
+![GitHub issues](https://img.shields.io/github/issues/Simplon-hdf/structure-projet?style=for-the-badge)
+![GitHub license](https://img.shields.io/github/license/Simplon-hdf/structure-projet?style=for-the-badge)
 
 <h1 align="center">Project name</h1>
 
