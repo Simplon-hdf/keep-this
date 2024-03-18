@@ -7,10 +7,16 @@ Le concepte de l'application est d'offir à un utilisateur la possibilité d'enr
 
 ## Problèmes
 
-|Problème               |Problèmatiques              |Solutions         |
-|:----------------------|:---------------------------|:-----------------|
-|Enregistrer des informations       |Le faire simplement        | Mémorandum|
-|                                   |Rassemblé les informations | Notes|
-|Suggérer des associations          |Etablir une méthode d'association calculer | Taux d'association |
-|                                   |Calculer le taux d'association| Taux de jumellage |
-|                                   |Affiner la pertinence| Taux de rareté|
+|Problèmatiques                     |Problème                                           |Solutions          |
+|:----------------------------------|:--------------------------------------------------|:------------------|
+|Enregistrer des informations       |Le faire simplement                                | Mémorandum        |
+|                                   |Rassemblé les informations                         | Notes             |
+|Suggérer des associations          |Etablir une méthode d'association calculer         | Taux d'association|
+|                                   |Calculer le taux d'association                     | Taux de jumellage |
+|                                   |Affiner la pertinence                              | Taux de rareté    |
+
+## Mémorandum
+C'est une zone de texte que l'utilisateur peux remplir, modifier ou archiver. Il ne contient que les informations que l'utilisateur veux conserver.
+
+## Notes
+C'est le rassemblement d'informations sur un même sujet 
