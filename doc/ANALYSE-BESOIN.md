@@ -1,9 +1,9 @@
 # Analyse du Besoin
 
 ## Introduction
-Dans un context où les informations arrivent de partout et à des moments inopportuns, leurs enregistrements demande soit un bonne mémoire, soit une disipline pour la prise de note que tout le monde ne possède pas. Même si il existe des applications pour prendre des notes. Leurs utilisation n'est pas toujours adapté à la situation, ou ne permet pas leurs rassemblement. 
+Dans un context où les informations arrivent de partout et à des moments inopportuns, leurs enregistrements demande soit un bonne mémoire, soit une disipline pour la prise de note que tout le monde ne possède pas. Même si il existe des applications pour prendre des notes. Leurs utilisation n'est pas toujours adapté à la situation, ou ne permet pas leurs rassemblement.
 
-Le concepte de l'application est d'offir à un utilisateur la possibilité d'enregistrer une information dans un mémorandum sans en préciser le contexte et de le lui suggerer après la création du mémo ou de lui en donner la possibilité d'en créer un. 
+Le concepte de l'application est d'offir à un utilisateur la possibilité d'enregistrer une information dans un mémorandum sans en préciser le contexte et de le lui suggerer après la création du mémo ou de lui en donner la possibilité d'en créer un.
 
 ## Problèmes
 
@@ -15,8 +15,20 @@ Le concepte de l'application est d'offir à un utilisateur la possibilité d'enr
 |                                   |Calculer le taux d'association                     | Taux de jumellage |
 |                                   |Affiner la pertinence                              | Taux de rareté    |
 
+## V2
+|Problèmatiques                     |Problème                                           |Solutions          |
+|:----------------------------------|:--------------------------------------------------|:------------------|
+|Accessibilité                      |Compatibilité multi-plateform                      ||
+|Convivalité                        |Interface utilisateur intuitive                    ||
+|Gestion des mémo                   |Comment les rassemblé et les hiérachisé            ||
+|                                   |Comment les Rechercher, filtrer, trier             ||
+|Personnalisation                   |Comment gerer les différents format (image, audio,...) ||
+|                                   |Comment gerer la police, couleurs, taille          ||
+|Synchronisation                    |Comment assurer la synchronisation fluide entre les données||
+|Confidentialité                    |Quelle mesure apporter pour assurer la confidentialité des données ||
+|Partage                            |Comment permettre le partage des informations ||
 ## Mémorandum
 C'est une zone de texte que l'utilisateur peux remplir, modifier ou archiver. Il ne contient que les informations que l'utilisateur veux conserver.
 
 ## Notes
-C'est le rassemblement d'informations sur un même sujet 
+C'est le rassemblement d'informations sur un même sujet
