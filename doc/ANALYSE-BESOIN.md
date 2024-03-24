@@ -7,28 +7,30 @@ Le concepte de l'application est d'offir à un utilisateur la possibilité d'enr
 
 ## Problèmes
 
-|Problèmatiques                     |Problème                                           |Solutions          |
-|:----------------------------------|:--------------------------------------------------|:------------------|
-|Enregistrer des informations       |Le faire simplement                                | Mémorandum        |
-|                                   |Rassemblé les informations                         | Notes             |
-|Suggérer des associations          |Etablir une méthode d'association calculer         | Taux d'association|
-|                                   |Calculer le taux d'association                     | Taux de jumellage |
-|                                   |Affiner la pertinence                              | Taux de rareté    |
+|Problèmatiques                                             |Problème                                               |Solutions                                                        |
+|:----------------------------------------------------------|:------------------------------------------------------|:----------------------------------------------------------------|
+|Complexité à organiser des informations                    |Multiplicité des étapes d'enregistrement               | Réduire le nombre d'étapes                                      |
+|                                                           |Multiplicité des interactions                          | Interface intuitive                                             |
+|                                                           |Informations dispersées                                | Rassembler les informations par sujet                           |
+|                                                           |Multiplicité des étapes d'organisation                 | Suggérer automatiquement une association                        |
+|Difficulté à enregistrer les données                       |Multiplicité des plateformes d'utilisation             | Centraliser les enregistrements                                 |
+|                                                           |Risque de fuite de données                             | Authentification forte                                          |
+|                                                           |Perte des saisies utilisateur                          | Synchronisation des actions utilisateur                         |
+||||
 
-## V2
-|Problèmatiques                     |Problème                                           |Solutions          |
-|:----------------------------------|:--------------------------------------------------|:------------------|
-|Accessibilité                      |Compatibilité multi-plateform                      ||
-|Convivalité                        |Interface utilisateur intuitive                    ||
-|Gestion des mémo                   |Comment les rassemblé et les hiérachisé            ||
-|                                   |Comment les Rechercher, filtrer, trier             ||
-|Personnalisation                   |Comment gerer les différents format (image, audio,...) ||
-|                                   |Comment gerer la police, couleurs, taille          ||
-|Synchronisation                    |Comment assurer la synchronisation fluide entre les données||
-|Confidentialité                    |Quelle mesure apporter pour assurer la confidentialité des données ||
-|Partage                            |Comment permettre le partage des informations ||
-## Mémorandum
-C'est une zone de texte que l'utilisateur peux remplir, modifier ou archiver. Il ne contient que les informations que l'utilisateur veux conserver.
 
-## Notes
-C'est le rassemblement d'informations sur un même sujet
+## Solutions 
+
+### Réduire le nombre d'étapes
+
+### Interface intuitive 
+
+### Rassembler les informations par sujet
+
+### Suggérer automatiquement une association
+
+### Centraliser les enregistrements
+
+### Authentification forte
+
+### Synchronisation des actions utilisateur
