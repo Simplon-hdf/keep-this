@@ -39,9 +39,32 @@ Plus besoin de titres, de sujets, ou de bouton *valider*. Cela permettra un gain
 
 ### Interface intuitive (VAL)
 
-Notre interface utilisateur a été conçue avec pour objectif principal la simplicité et l'accessibilité pour la prise de notes. En mettant l'accent sur une disposition claire et des fonctionnalités intuitives, nous avons veillé à ce que les utilisateurs puissent rapidement capturer leurs idées sans rencontrer de barrières techniques. Les éléments d'interface sont disposés de manière logique, avec des boutons et des options facilement identifiables pour créer, modifier et organiser ce qui a été saisi. Pour l’enregistrement d’un mémo, nous avons conçu une interface avec une seule zone de saisie où les utilisateurs peuvent rapidement rédiger leurs mémos sans être distraits par des éléments superflus. Cette zone de saisie est  facile à utiliser, permettant aux utilisateurs de se concentrer entièrement sur le contenu de leurs notes. Chaque fonctionnalité aura donc son propre bouton, ou sa propre page dédié. Cette conception vise à éviter de submerger l'utilisateur avec trop d'informations de navigation à la fois, garantissant ainsi une expérience fluide et intuitive. Sur la version bureau, chaque fonctionnalité clé, comme la création de nouvelles notes, la gestion des catégories ou la recherche, est clairement identifiable par des boutons distincts, offrant une navigation directe et sans encombre.  Sur la version mobile ,  un menu radial a été pensé pour permettre une navigation facile et fluide entre les notes et les mémos. Ce menu radial offre une interface tactile intuitive, permettant aux utilisateurs de passer rapidement d'une fonctionnalité à une autre avec un simple toucher. En résumé, notre interface simplifie la prise de notes avec des fonctionnalités claires sur bureau et un menu radial sur mobile, assurant une expérience utilisateur harmonieuse.
+Notre interface utilisateur a été conçue avec pour objectif principal la simplicité et l'accessibilité pour la prise de notes. En mettant l'accent sur une disposition claire et des fonctionnalités intuitives, nous avons veillé à ce que les utilisateurs puissent rapidement capturer leurs idées sans rencontrer de barrières techniques. 
 
-### Rassembler les informations par sujet(VAL)
+Les éléments d'interface sont disposés de manière logique, avec des boutons et des options facilement identifiables pour créer, modifier et organiser ce qui a été saisi. Pour l’enregistrement d’un mémo, nous avons conçu une interface avec une seule zone de saisie où les utilisateurs peuvent rapidement rédiger leurs mémos sans être distraits par des éléments superflus. Cette zone de saisie est  facile à utiliser, permettant aux utilisateurs de se concentrer entièrement sur le contenu de leurs notes. 
+
+Chaque fonctionnalité aura donc son propre bouton, ou sa propre page dédié. Cette conception vise à éviter de submerger l'utilisateur avec trop d'informations de navigation à la fois, garantissant ainsi une expérience fluide et intuitive. 
+
+Sur la version bureau, chaque fonctionnalité clé, comme la création de nouvelles notes, la gestion des catégories ou la recherche, est clairement identifiable par des boutons distincts, offrant une navigation directe et sans encombre.  
+
+Sur la version mobile ,  un menu radial a été pensé pour permettre une navigation facile et fluide entre les notes et les mémos. Ce menu radial offre une interface tactile intuitive, permettant aux utilisateurs de passer rapidement d'une fonctionnalité à une autre avec un simple toucher. 
+
+En résumé, notre interface simplifie la prise de notes avec des fonctionnalités claires sur bureau et un menu radial sur mobile, assurant une expérience utilisateur harmonieuse.
+
+### Rassembler les informations par sujet
+Dans le cadre de la conception d'une application de prise de notes, il est crucial de comprendre les besoins des utilisateurs pour résoudre les problèmes liés à l'organisation des mémos. Un défi fréquent rencontré par de nombreux utilisateurs est la difficulté à retrouver rapidement des mémos précédemment enregistrés. Ceci est souvent dû au manque de structure et d'organisation efficace des informations. Les mémos peuvent être dispersés et non classés, ce qui rend leur recherche fastidieuse.
+
+Pour remédier à cette problématique, notre application propose une solution intuitive et pratique : la fonctionnalité de regroupement des mémos dans des notes. Chaque note constitue un ensemble organisé de mémos partageant un même thème ou sujet, représenté par le titre de la note. Cette approche permet aux utilisateurs de rassembler les mémos similaires en un seul endroit, facilitant ainsi leur accès et leur gestion.
+
+En regroupant les mémos dans des notes, les utilisateurs peuvent organiser leurs idées, projets, ou tâches par thèmes ou catégories pertinentes. Par exemple, un utilisateur peut créer une note pour ses idées de voyage, une autre pour ses listes de tâches personnelles, et ainsi de suite. Cette structuration aide à rationaliser le processus de prise de notes et améliore l'efficacité globale de la gestion des informations.
+
+Bien sûr, pour répondre aux besoins de nos utilisateurs, notre application de prise de notes propose également des fonctionnalités avancées pour afficher et trier les notes en fonction de divers critères. Voici quelques-unes des fonctionnalités de gestion des notes que notre application offre :
+
+1. **Affichage des Notes**: Les utilisateurs peuvent facilement visualiser toutes leurs notes dans une vue globale. Chaque note est représentée par son titre, fournissant ainsi un aperçu rapide du contenu.
+2. **Tri par Date de Création**: Les notes peuvent être triées chronologiquement en fonction de leur date de création. Cette fonctionnalité permet aux utilisateurs de retrouver rapidement les notes les plus récentes ou de parcourir l'historique des notes.
+3. **Recherche par Mot-Clé**: Notre application propose une fonction de recherche puissante qui permet aux utilisateurs de rechercher des notes en fonction de mots-clés spécifiques. Cette fonctionnalité facilite la localisation rapide des notes pertinentes parmi une grande quantité de données.
+
+En résumé, en offrant la possibilité de regrouper les mémos dans des notes, notre application répond de manière proactive aux besoins des utilisateurs en matière d'organisation et de gestion des informations. Cette fonctionnalité contribue à améliorer l'expérience utilisateur en rendant la recherche et la consultation des mémos plus simples et plus efficaces.
 
 ### Suggérer automatiquement une association (KEV)
 
