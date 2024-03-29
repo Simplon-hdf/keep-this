@@ -1,16 +1,20 @@
-![GitHub contributors](https://img.shields.io/github/contributors/Simplon-hdf/structure-projet?style=for-the-badge)
-![GitHub forks](https://img.shields.io/github/forks/Simplon-hdf/structure-projet?style=for-the-badge)
-![GitHub stars](https://img.shields.io/github/stars/Simplon-hdf/structure-projet?style=for-the-badge)
-![GitHub issues](https://img.shields.io/github/issues/Simplon-hdf/structure-projet?style=for-the-badge)
-![GitHub license](https://img.shields.io/github/license/Simplon-hdf/structure-projet?style=for-the-badge)
+![GitHub contributors](https://img.shields.io/github/contributors/Simplon-hdf/keep-this?style=for-the-badge)
+![GitHub forks](https://img.shields.io/github/forks/Simplon-hdf/keep-this?style=for-the-badge)
+![GitHub stars](https://img.shields.io/github/stars/Simplon-hdf/keep-this?style=for-the-badge)
+![GitHub issues](https://img.shields.io/github/issues/Simplon-hdf/keep-this?style=for-the-badge)
+![GitHub license](https://img.shields.io/github/license/Simplon-hdf/keep-this?style=for-the-badge)
 
-<h1 align="center">Project name</h1>
+<h1 align="center">KEEP THIS</h1>
 
 <div align="center">
 
 ## Project Description
 
-Ce dépôt est une structure permettant de démarrer un projet professionnel ou personnel. Ceci vous fera gagner un temps précieux et maximiser votre temps de travail.
+Ce projet constitue une application de prise de note rapide, développée dans le cadre d'un projet de passage de titre en tant que concepteur et développeur d'applications. 
+
+L'application permet aux utilisateurs de prendre des notes rapidement et de les organiser de manière efficace. Elle offre une interface utilisateur intuitive et des fonctionnalités de gestion de notes pour aider les utilisateurs à rester organisés et productifs. 
+
+Grâce à cette application, les utilisateurs peuvent saisir des notes, les modifier, les organiser par catégories ou étiquettes, et les retrouver facilement lorsque nécessaire.
 
 </div>
 
