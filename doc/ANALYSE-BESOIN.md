@@ -68,7 +68,25 @@ En résumé, en offrant la possibilité de regrouper les mémos dans des notes, 
 
 ### Suggérer automatiquement une association (KEV)
 
-Pour pouvoir associer automatiquement les mémorandums au notes il faut pouvoir déterminer comment les mots sont associer entre eux. Il est compliqué pour un programme de déterminer le sens d'une phrases. En revanche il est plutot aisée de compter pour une machine. Si Dans un certain contexte on calcule qu'elle est la probabilité qu'un mot s'associe avec un autre. Nous serions en mesure de donner un taux d'association entre un mot et un autre mot. Ainsi donc chaque mot d'un titre possédéra un taux d'association avec chaque mot d'un mémorandum. la multiplication de toutes les taux nous donnera une note d'association entre le titre d'une note et le contenu du Mémo. Plus cette valeur est élévé, plus il est probable que ce mémo et cette note sont associable.
+Pour pouvoir suggerer automatiquement un association entre les Mémo et une notes, il faut pouvoir déterminer si les mots ont un sens particulier dans la phrase. Un programme n'est pas capable de comprendre le sens d'une phrase. il faut donc arrivé à déterminer mathématiquement si les titres des notes sont associable aux mots écrit dans le mémo.
+
+Nous disposons de 7 valeurs pour le calculer :
+
+* Taux d' association thématiques : Combien de fois le mot présent dans le titre à été associer au mot présent dans le mémo. (utilisé)
+* Taux d'association syntaxique : Combien de fois les mot à associer se sont retrouvé à une distance de 5 mots l'un de l'autre. (non utilisé)
+* Taux d'association contextuelle : Combien de fois les mots se sont retrouver dans une même note dans 2 mémos différents. (non utilisé)
+* Taux d'utilisation: Le mot est-il beaucoup utilisé. (utilisé)
+* Le nombre d'association thématique qu'il posséde. (non utilisé)
+* le nombre d'association synthaxique qu'il posséde. (non utilisé)
+* le nombre d'association contextuelle qu'il posséde. (non utilisé)
+
+![association example](assets/taux-d'assoc.jpg)
+
+Pour une première version nous allons déterminer le mot avec le taux d'utilisation le plus faible comme étant le mot clé du mémo. Comme il peu utilisé dans notre application nous pouvons en supposer qu'il à un sens particulier, donnant alors au association qui le compose une valeur pertinante pour notre objéctif.
+
+Une fois le mot clé trouver, il faut determiner quelle titre de note correspond le mieux avec le mot clé. Nous allons donc pour chaque note calculer la moyenne des taux d'association thématique entre les mot qui compose le titre et le mot clé du mémo.
+
+les notes d'association ainsi obtenue nous serons en mesure de proposer un ordre hierachique d'association à l'utilisateur de la meilleurs note à la plus basse.
 
 ### Centraliser les enregistrements
 
