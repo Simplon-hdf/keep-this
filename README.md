@@ -109,9 +109,8 @@ En répondant au besoin de rapidité et de facilité dans la prise de notes, not
 
 De plus, notre application adresse le défi de la gestion organisée des notes en permettant aux utilisateurs de regrouper leurs post-it dans des carnets thématiques. Cette fonctionnalité offre une structure logique pour organiser les informations en fonction des projets, des tâches ou des catégories, facilitant ainsi la recherche et la récupération ultérieure des données.
 
-Enfin, notre application assure la sécurité et la sauvegarde des données en stockant les carnets de post-it dans le cloud. Cela garantit que les informations importantes ne sont jamais perdues et restent accessibles à tout moment et depuis n'importe quel appareil connecté, offrant ainsi une tranquillité d'esprit aux utilisateurs.
 
-En résumé, notre application révolutionnaire offre une approche novatrice et pratique à la gestion des notes et des idées, en combinant la simplicité du post-it avec la puissance de la technologie numérique. Avec ses fonctionnalités intuitives et sa flexibilité, elle répond aux besoins essentiels des utilisateurs dans leur quotidien professionnel et personnel.
+En résumé, notre application offre une approche novatrice et pratique à la gestion des notes et des idées, en combinant la simplicité du post-it avec la puissance de la technologie numérique. Avec ses fonctionnalités intuitives et sa flexibilité, elle répond aux besoins essentiels des utilisateurs dans leur quotidien professionnel et personnel.
 
 
 ## :computer: Présentation technique du projet
@@ -123,7 +122,7 @@ Nous avons opté pour l'utilisation du langage C# pour le développement du back
 Pour le frontend de notre application, nous avons choisi d'utiliser React, une bibliothèque JavaScript moderne et populaire pour la construction d'interfaces utilisateur interactives. React nous offre un développement rapide et efficace grâce à sa structure modulaire et à sa capacité de réutilisation des composants. Nous pourrons ainsi créer une interface utilisateur dynamique et réactive, offrant une expérience utilisateur fluide et intuitive.
 
 **Base de données :**
-Nous avons opté pour PostgreSQL comme système de gestion de base de données. PostgreSQL est un système de base de données open-source robuste et fiable, offrant des fonctionnalités avancées et une grande stabilité. Sa prise en charge complète des transactions ACID et sa compatibilité avec les normes SQL en font un choix idéal pour notre application. De plus, sa flexibilité et sa capacité à gérer des charges de travail élevées en font un choix judicieux pour nos besoins.
+Nous avons opté pour PostgreSQL comme système de gestion de base de données. PostgreSQL est un système de base de données open-source robuste et fiable, offrant des fonctionnalités avancées et une grande stabilité. Sa compatibilité avec les normes SQL en font un choix idéal pour notre application. De plus, sa flexibilité et sa capacité à gérer des charges de travail élevées en font un choix judicieux pour nos besoins.
 
 En combinant ces technologies, nous serons en mesure de développer une application de gestion de post-it numériques qui soit à la fois performante, sécurisée et conviviale. Notre objectif est de fournir aux utilisateurs une expérience utilisateur exceptionnelle tout en garantissant la stabilité et la fiabilité de l'application.
 
