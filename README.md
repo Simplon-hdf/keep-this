@@ -114,7 +114,7 @@ Enfin, notre application assure la sécurité et la sauvegarde des données en s
 En résumé, notre application révolutionnaire offre une approche novatrice et pratique à la gestion des notes et des idées, en combinant la simplicité du post-it avec la puissance de la technologie numérique. Avec ses fonctionnalités intuitives et sa flexibilité, elle répond aux besoins essentiels des utilisateurs dans leur quotidien professionnel et personnel.
 
 
-## :laptop: Présentation technique du projet
+## :computer: Présentation technique du projet
 
 **Backend :**
 Nous avons opté pour l'utilisation du langage C# pour le développement du backend de notre application. C# est un langage robuste et largement utilisé dans le développement d'applications web. Pour la gestion de la base de données, nous allons mettre en œuvre Entity Framework, un ORM (Object-Relational Mapping) qui facilite l'interaction avec la base de données en utilisant des objets .NET. Entity Framework nous permettra de manipuler les données de manière efficace et sécurisée, tout en réduisant le temps de développement.
@@ -128,7 +128,7 @@ Nous avons opté pour PostgreSQL comme système de gestion de base de données. 
 En combinant ces technologies, nous serons en mesure de développer une application de gestion de post-it numériques qui soit à la fois performante, sécurisée et conviviale. Notre objectif est de fournir aux utilisateurs une expérience utilisateur exceptionnelle tout en garantissant la stabilité et la fiabilité de l'application.
 
 
-###  :tools: Technologies Utilisées
+###  :wrench: Technologies Utilisées
 
 - ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
 - ![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white)
