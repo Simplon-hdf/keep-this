@@ -10,9 +10,7 @@
 ## Sommaire
 - [Checklist](##Checklist)
 - [Introduction](##Introduction)
-- [Utilisation](##utilisation)
-- [Contribuer](##contribuer)
-- [Technologies Utilisées](##Technologies Utilisées)
+- [Technologies Utilisées](##TechnologiesUtilisées)
 
 ## :writing_hand: Checklist
 
