@@ -14,31 +14,31 @@
 
 ## :writing_hand: Checklist
 
-- [ ] **Choix de la méthodologie (Agile)**
-- [ ] **Créer un repo Github**
-- [ ] **Créer la structure du repo (Best practice)**
+- [x] **Choix de la méthodologie (Agile)**
+- [x] **Créer un repo Github**
+- [x] **Créer la structure du repo (Best practice)**
 
   - Dossier
-    - [ ] [.config](.config/)
-    - [ ] [dep](dep/)
-    - [ ] [doc](doc/)
-    - [ ] [res](res/)
-    - [ ] [samples](samples/)
-    - [ ] [tools](tools/)
-    - [ ] [build](build/)
-    - [ ] [test](test/)
+    - [x] [.config](.config/)
+    - [x] [dep](dep/)
+    - [x] [doc](doc/)
+    - [x] [res](res/)
+    - [x] [samples](samples/)
+    - [x] [tools](tools/)
+    - [x] [build](build/)
+    - [x] [test](test/)
   - Fichier
     - [ ] [LICENCE.md](LICENCE.md)
-    - [ ] [README.md](README.md)
+    - [x] [README.md](README.md)
     - [ ] [.gitattributes](.gitattributes)
     - [ ] [.gitignore](.gitignore)
     - [ ] [.gitmodules](.gitmodules)
     - [ ] [.dockerignore](.dockerignore)
 
-- [ ] **Mise en place du Readme**
-- [ ] **[Analyse des besoins]** (doc/analyse-besoin.md)
+- [x] **Mise en place du Readme**
+- [x] **[Analyse des besoins](doc/analyse-besoin.md)** 
 - [ ] **Spécification fonctionnelle**
-  - [ ] [Règle de gestion](doc/regles-gestions.md)
+  - [x] [Règle de gestion](doc/regles-gestions.md)
   - [ ] [UML](doc/uml/)
     - [ ] [Diagramme d'activité](doc/uml/activite.md)
     - [ ] [Use case](doc/uml/use-case.md)
@@ -49,7 +49,7 @@
     - [ ] [MLD](doc/Merise/MLD.md)
     - [ ] [MPD](doc/Merise//MPD.md)
   - [ ] [RBAC](doc/RBAC.md)
-- [ ] **[Benchmark]**(doc/Benchmark/)
+- [ ] **[Benchmark](doc/Benchmark/)**
 	- [Framework Front-End](doc/Benchmark/front-end-frameworks.md)
 	- [Framework Back-End](doc/Benchmark/back-end-frameworks.md)
 	- [ORM](doc/Benchmark/orm.md)
@@ -57,15 +57,15 @@
 - [ ] **Epic**
   - [ ] User Story
   - [ ] Product backlog (Tâches)
-- [ ] **Jira**
+- [x] **Jira**
 - [ ] **Rituels agiles**
 
-  - [ ] Sprint planning meeting
-  - [ ] Stand up meeting
+  - [x] Sprint planning meeting
+  - [x] Stand up meeting
   - [ ] Sprint retrospective
   - [ ] Sprint Review
 
-- [ ] **Démarrer les sprints**
+- [x] **Démarrer les sprints**
 
 
 ## :book: Introduction
