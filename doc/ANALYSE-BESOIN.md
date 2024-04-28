@@ -8,88 +8,52 @@ Le concepte de l'application est d'offir à un utilisateur la possibilité d'enr
 
 ## Problèmes
 
-|Problématiques                                             |Problème                                               |Solutions                                                        |
-|:----------------------------------------------------------|:------------------------------------------------------|:----------------------------------------------------------------|
-|Complexité à organiser des informations                    |Multiplicité des étapes d'enregistrement               | Réduire le nombre d'étapes                                      |
-|                                                           |Multiplicité des interactions                          | Interface intuitive                                             |
-|                                                           |Informations dispersées                                | Rassembler les informations par sujet                           |
-|                                                           |Multiplicité des étapes d'organisation                 | Suggérer automatiquement une association                        |
-|Difficulté à enregistrer les données                       |Multiplicité des plateformes d'utilisation             | Centraliser les enregistrements                                 |
-|                                                           |Risque de fuite de données                             | Authentification forte                                          |
-|                                                           |Perte des saisies utilisateur                          | Synchronisation des actions utilisateur                         |
+
+|Problématiques   |Problème    |Solutions      |
+|:--------------|:-------------|:--------------|
+|Enregistrer les informations   |Multiplicité des intéractions|Interface intuitive|
+|                               |Chronophagie des étapes d'enregistrement  |Differer les étapes|
+|                               |Organisation des données| Utiliser les métadonnées|
+|Retrouver les informations     |Multiplicités point d'enregistrement |Centralisation des enregistrements  |
+|                               |Confidentialités | Authentification par login et mot de passe    |
+|                               |Dissémination des informations| Rassembler les informations par sujet|
 ||||
 
-## Solutions
+## Interface intuitive
 
-### Réduire le nombre d'étapes (AUR)
+## Différer les étapes. 
+Lors de la prise de notes, il est souvent crucial de reconnaître que l'utilisateur peut manquer de temps pour compléter toutes les interactions nécessaires à l'enregistrement complet de son mémo. Pour répondre efficacement à cette réalité, il est essentiel de prioriser l'enregistrement du contenu comme première étape du processus. Que l'on peut détailler en quelques point clé: 
 
-![Multiple steps illustration](assets/multiple-steps.png)
+1. Priorité au contenu initial : La première action lors de la prise de note devrait être la saisie rapide du contenu essentiel. Cette étape assure que les informations critiques sont capturées immédiatement, réduisant le risque de les oublier plus tard.
 
-Après avoir comparé plusieurs applications de prise de notes, une particularité commune nous a immédiatement sauté aux yeux : le nombre d’étapes nécessaires à l’enregistrement d’une note.
+2. Flexibilité dans la structuration : Après avoir sécurisé le contenu principal, l'utilisateur peut revenir à sa note pour organiser et structurer les informations de manière plus détaillée lorsque le temps le permet. Cette approche flexible facilite la gestion du temps et réduit la pression immédiate.
 
-En effet, la plupart des applications existantes demandent plusieurs détails, dont au minimum un titre et un contenu, et souvent même une étape finale d’enregistrement (un bouton *valider* par exemple).
+3. Intégration d'outils d'assistance : L'intégration de fonctionnalités telles que la suggestion d'association au notes donnera la possibilité d'organiser rapidement son mémo pour le classer rapidement est simplement dans une note.
 
-Afin de réduire le nombre d’étapes avant d’enregistrer une note, nous avons décidé de séparer le processus en deux entités distinctes : les **mémos** et les **notes**. Nous reviendrons plus tard sur les **notes** comme nous l’entendons dans notre application.
+En adoptant une approche modulaire et flexible pour l'enregistrement des notes, on respecte non seulement les contraintes de temps des utilisateurs mais on améliore également la qualité et l'utilité des notes prises. Cette stratégie permet d'assurer que l'information essentielle est capturée immédiatement, tout en offrant l'opportunité d'enrichir et de préciser les détails plus tard, à un moment plus opportun.
 
-Les **mémos** seront la première interaction entre l’utilisateur connecté et l’interface. Nous souhaitons que cette interaction se rapproche le plus possible de l’action de prendre un stylo et un papier, et gribouiller une idée.
 
-Ainsi, dans l’application, un **mémo** permettra d’enregistrer une idée directement, sans clics intermédiaires. Il suffira de choisir d’ajouter un **mémo**, et de l’écrire. L’application se chargera elle-même d’effectuer l’enregistrement automatique de ce qui vient d’être entré (cf. [*Synchronisation des actions utilisateur*](#synchronisation-des-actions-utilisateur)).
+## Utiliser les métadonnées
 
-Plus besoin de titres, de sujets, ou de bouton *valider*. Cela permettra un gain de temps non négligeable si l’on considère le nombre de **mémos** pouvant être créés. L'utilisateur peut ainsi noter tout ce qui lui passe par la tête à la volée.
+Les interactions des utilisateurs avec notre application ne se résument pas à de simples actions ; elles représentent une richesse inestimable de données pour comprendre les associations de mots. En analysant ces interactions, nous pouvons décrypter comment les utilisateurs relient des concepts entre eux, ce qui est essentiel pour améliorer l'expérience utilisateur. Le cœur de notre système réside dans l'identification des métadonnées pertinentes qui facilitent l'association des post-its aux carnets. Cette démarche permet de développer des modèles statistiques capables d'établir des probabilités d'association entre les titres des carnets et les mots utilisés dans les post-its.
 
-### Interface intuitive (VAL)
+Grâce à cette technologie, notre application apprend de manière autonome comment les utilisateurs pense et organise ses informations, ce qui lui permet d'offrir des suggestions. Ces suggestions visent à améliorer les interactions futures en anticipant les besoins des utilisateurs avant même qu'ils ne les expriment explicitement. En somme, nous transformons les actions quotidiennes de nos utilisateurs en apprentissages profonds, rendant notre application non seulement plus intuitive mais aussi plus intelligente, capable de s'adapter et de répondre de manière proactive aux exigences de ses utilisateurs.
 
-Notre interface utilisateur a été conçue avec pour objectif principal la simplicité et l'accessibilité pour la prise de notes. En mettant l'accent sur une disposition claire et des fonctionnalités intuitives, nous avons veillé à ce que les utilisateurs puissent rapidement capturer leurs idées sans rencontrer de barrières techniques. 
+## Multipicipé des points d'enregistrement
 
-Les éléments d'interface sont disposés de manière logique, avec des boutons et des options facilement identifiables pour créer, modifier et organiser ce qui a été saisi. Pour l’enregistrement d’un mémo, nous avons conçu une interface avec une seule zone de saisie où les utilisateurs peuvent rapidement rédiger leurs mémos sans être distraits par des éléments superflus. Cette zone de saisie est  facile à utiliser, permettant aux utilisateurs de se concentrer entièrement sur le contenu de leurs notes. 
+L'écosystème numérique actuel est composé de systèmes d'information diversifiés et en constante évolution, il serait donc imprudent de notre part de ne pas prendre en compte cette réalité dynamique. Face à ce paysage technologique en perpétuel changement, l'usage d'une API (Interface de Programmation d'Applications) devient indispensable pour garantir une uniformité des données utilisateurs, peu importe le nombre d'applications ou de systèmes d'information créés.
 
-Chaque fonctionnalité aura donc son propre bouton, ou sa propre page dédié. Cette conception vise à éviter de submerger l'utilisateur avec trop d'informations de navigation à la fois, garantissant ainsi une expérience fluide et intuitive. 
+L'intégration d'une API robuste permet de synchroniser les données à travers différents points de contact, assurant ainsi que chaque interaction utilisateur soit cohérente, quelle que soit l'interface utilisée. Cela est crucial non seulement pour maintenir la fiabilité et la précision des données mais aussi pour offrir une expérience utilisateur fluide et homogène. En adoptant une stratégie centrée sur l'API, nous pouvons ainsi répondre efficacement aux besoins évolutifs de nos utilisateurs et rester compétitifs dans un environnement technologique qui ne cesse de se transformer.
 
-Sur la version bureau, chaque fonctionnalité clé, comme la création de nouvelles notes, la gestion des catégories ou la recherche, est clairement identifiable par des boutons distincts, offrant une navigation directe et sans encombre.  
+## Confidentialités
+les données confier par notre utilisateur sont privées, il est donc de notre responsabilité de proteger ces données pour quelle ne soit consultable que par les personnes autorisées.
 
-Sur la version mobile ,  un menu radial a été pensé pour permettre une navigation facile et fluide entre les notes et les mémos. Ce menu radial offre une interface tactile intuitive, permettant aux utilisateurs de passer rapidement d'une fonctionnalité à une autre avec un simple toucher. 
+Dans le cadre de notre applications, la confidentialité des données utilisateurs est primordiale. Ces données, souvent personnelles et sensibles, requièrent une protection rigoureuse pour s'assurer qu'elles restent accessibles uniquement aux personnes autorisées. Ceci implique l'implémentation de mesures de sécurité robustes à plusieurs niveaux.
 
-En résumé, notre interface simplifie la prise de notes avec des fonctionnalités claires sur bureau et un menu radial sur mobile, assurant une expérience utilisateur harmonieuse.
+Premièrement, le chiffrement des données en transit, empêche l'accès non autorisé. Deuxièmement, l'authentification forte, par exemple à travers la biométrie ou la double authentification, garantit que seul l'utilisateur légitime peut accéder à ses notes. En outre, une politique stricte de gestion des accès doit être mise en place pour définir clairement qui peut consulter ou modifier les données.
 
-### Rassembler les informations par sujet
-Dans le cadre de la conception d'une application de prise de notes, il est crucial de comprendre les besoins des utilisateurs pour résoudre les problèmes liés à l'organisation des mémos. Un défi fréquent rencontré par de nombreux utilisateurs est la difficulté à retrouver rapidement des mémos précédemment enregistrés. Ceci est souvent dû au manque de structure et d'organisation efficace des informations. Les mémos peuvent être dispersés et non classés, ce qui rend leur recherche fastidieuse.
+Il est également crucial de sensibiliser les utilisateurs à la sécurité de leurs propres données, en les guidant sur les pratiques sécuritaires et en leur fournissant des options de personnalisation de leur confidentialité. Ainsi, notre responsabilité en tant que développeurs est double : protéger les données des utilisateurs contre les intrusions extérieures et contre les erreurs de manipulation internes. En respectant ces principes, nous assurons la confiance des utilisateurs, essentielle au succès de l'application.
 
-Pour remédier à cette problématique, notre application propose une solution intuitive et pratique : la fonctionnalité de regroupement des mémos dans des notes. Chaque note constitue un ensemble organisé de mémos partageant un même thème ou sujet, représenté par le titre de la note. Cette approche permet aux utilisateurs de rassembler les mémos similaires en un seul endroit, facilitant ainsi leur accès et leur gestion.
-
-En regroupant les mémos dans des notes, les utilisateurs peuvent organiser leurs idées, projets, ou tâches par thèmes ou catégories pertinentes. Par exemple, un utilisateur peut créer une note pour ses idées de voyage, une autre pour ses listes de tâches personnelles, et ainsi de suite. Cette structuration aide à rationaliser le processus de prise de notes et améliore l'efficacité globale de la gestion des informations.
-
-Bien sûr, pour répondre aux besoins de nos utilisateurs, notre application de prise de notes propose également des fonctionnalités avancées pour afficher et trier les notes en fonction de divers critères. Voici quelques-unes des fonctionnalités de gestion des notes que notre application offre :
-
-1. **Affichage des Notes**: Les utilisateurs peuvent facilement visualiser toutes leurs notes dans une vue globale. Chaque note est représentée par son titre, fournissant ainsi un aperçu rapide du contenu.
-2. **Tri par Date de Création**: Les notes peuvent être triées chronologiquement en fonction de leur date de création. Cette fonctionnalité permet aux utilisateurs de retrouver rapidement les notes les plus récentes ou de parcourir l'historique des notes.
-3. **Recherche par Mot-Clé**: Notre application propose une fonction de recherche puissante qui permet aux utilisateurs de rechercher des notes en fonction de mots-clés spécifiques. Cette fonctionnalité facilite la localisation rapide des notes pertinentes parmi une grande quantité de données.
-
-En résumé, en offrant la possibilité de regrouper les mémos dans des notes, notre application répond de manière proactive aux besoins des utilisateurs en matière d'organisation et de gestion des informations. Cette fonctionnalité contribue à améliorer l'expérience utilisateur en rendant la recherche et la consultation des mémos plus simples et plus efficaces.
-
-### Suggérer automatiquement une association (KEV)
-
-Pour pouvoir suggerer automatiquement un association entre les Mémo et une notes, il faut pouvoir déterminer si les mots ont un sens particulier dans la phrase. Un programme n'est pas capable de comprendre le sens d'une phrase. il faut donc arrivé à déterminer mathématiquement si les titres des notes sont associable aux mots écrit dans le mémo.
-
-Nous disposons de 7 valeurs pour le calculer :
-
-* Taux d' association thématiques : Combien de fois le mot présent dans le titre à été associer au mot présent dans le mémo. (utilisé)
-* Taux d'association syntaxique : Combien de fois les mot à associer se sont retrouvé à une distance de 5 mots l'un de l'autre. (non utilisé)
-* Taux d'association contextuelle : Combien de fois les mots se sont retrouver dans une même note dans 2 mémos différents. (non utilisé)
-* Taux d'utilisation: Le mot est-il beaucoup utilisé. (utilisé)
-* Le nombre d'association thématique qu'il posséde. (non utilisé)
-* le nombre d'association synthaxique qu'il posséde. (non utilisé)
-* le nombre d'association contextuelle qu'il posséde. (non utilisé)
-
-![association example](assets/taux-d'assoc.jpg)
-
-Pour une première version nous allons déterminer le mot avec le taux d'utilisation le plus faible comme étant le mot clé du mémo. Comme il peu utilisé dans notre application nous pouvons en supposer qu'il à un sens particulier, donnant alors au association qui le compose une valeur pertinante pour notre objéctif.
-
-Une fois le mot clé trouver, il faut determiner quelle titre de note correspond le mieux avec le mot clé. Nous allons donc pour chaque note calculer la moyenne des taux d'association thématique entre les mot qui compose le titre et le mot clé du mémo.
-
-les notes d'association ainsi obtenue nous serons en mesure de proposer un ordre hierachique d'association à l'utilisateur de la meilleurs note à la plus basse.
-
-### Centraliser les enregistrements
-
-### Authentification forte (KEV)
-
-### Synchronisation des actions utilisateur
+## Rassembler les informations par sujet 
+Pour améliorer l'efficacité et l'organisation dans une application de prise de notes, le rassemblement des notes par sujet est une fonctionnalité cruciale. Cette méthode permet aux utilisateurs de catégoriser leurs notes en différents sujets ou projets, facilitant ainsi l'accès rapide et la révision des informations pertinentes.
+Le regroupement par sujet aide non seulement à maintenir un espace de travail numérique clair et ordonné, mais améliore également la productivité en réduisant le temps passé à chercher des informations spécifiques.
