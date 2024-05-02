@@ -119,7 +119,7 @@ En résumé, notre application offre une approche novatrice et pratique à la ge
 Nous avons opté pour l'utilisation du langage C# pour le développement du backend de notre application. C# est un langage robuste et largement utilisé dans le développement d'applications web. Pour la gestion de la base de données, nous allons mettre en œuvre Entity Framework, un ORM (Object-Relational Mapping) qui facilite l'interaction avec la base de données en utilisant des objets .NET. Entity Framework nous permettra de manipuler les données de manière efficace et sécurisée, tout en réduisant le temps de développement.
 
 **Frontend :**
-Pour le frontend de notre application, nous avons choisi d'utiliser React, une bibliothèque JavaScript moderne et populaire pour la construction d'interfaces utilisateur interactives. React nous offre un développement rapide et efficace grâce à sa structure modulaire et à sa capacité de réutilisation des composants. Nous pourrons ainsi créer une interface utilisateur dynamique et réactive, offrant une expérience utilisateur fluide et intuitive.
+Pour le frontend de notre application, le langage utilisé sera Typescript. Nous avons choisi d'utiliser comme framework React, une bibliothèque moderne et populaire pour la construction d'interfaces utilisateur interactives. React nous offre un développement rapide et efficace grâce à sa structure modulaire et à sa capacité de réutilisation des composants. Nous pourrons ainsi créer une interface utilisateur dynamique et réactive, offrant une expérience utilisateur fluide et intuitive.
 
 **Base de données :**
 Nous avons opté pour PostgreSQL comme système de gestion de base de données. PostgreSQL est un système de base de données open-source robuste et fiable, offrant des fonctionnalités avancées et une grande stabilité. Sa compatibilité avec les normes SQL en font un choix idéal pour notre application. De plus, sa flexibilité et sa capacité à gérer des charges de travail élevées en font un choix judicieux pour nos besoins.
@@ -136,7 +136,7 @@ En combinant ces technologies, nous serons en mesure de développer une applicat
 - ![.NET Core](https://img.shields.io/badge/.NET%20Core-5C2D91.svg?style=for-the-badge&logo=.net&logoColor=white)
 - ![Entity Framework Core](https://img.shields.io/badge/Entity%20Framework%20Core-512BD4.svg?style=for-the-badge&logo=.net&logoColor=white)
 - ![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
-- ![JavaScript](https://img.shields.io/badge/JavaScript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+- ![Typescript](https://img.shields.io/badge/JavaScript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 - ![React](https://img.shields.io/badge/React-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
 - ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
 - ![JIRA](https://img.shields.io/badge/JIRA-0052CC.svg?style=for-the-badge&logo=jira&logoColor=white)
