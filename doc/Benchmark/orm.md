@@ -6,25 +6,25 @@ Ce tableau compare trois ORM populaires pour les API ASP.NET Core : Entity Frame
 
 | Critères               | Entity Framework Core     | Dapper           | Entity Framework Plus     |
 |------------------------|---------------------------|------------------|---------------------------|
-| Rapidité               | 4                         | 5                | 4                         |
-| Popularité             | 5                         | 4                | 3                         |
-| Maturité               | 5                         | 5                | 4                         |
-| Releases               | 5                         | 5                | 4                         |
-| Bonnes pratiques       | 5                         | 3                | 3                         |
+| Rapidité               | 2                         | 3                | 2                         |
+| Popularité             | 3                         | 2                | 1                         |
+| Maturité               | 3                         | 3                | 1                         |
+| Releases               | 3                         | 3                | 2                         |
+| Bonnes pratiques       | 3                         | 2                | 2                         |
 | Stars Github           | [![Entity Framework Core](https://img.shields.io/github/stars/dotnet/efcore?style=social)](https://github.com/dotnet/efcore) | [![Dapper](https://img.shields.io/github/stars/DapperLib/Dapper?style=social)](https://github.com/DapperLib/Dapper) | [![Entity Framework Plus](https://img.shields.io/github/stars/zzzprojects/EntityFramework-Plus?style=social)](https://github.com/zzzprojects/EntityFramework-Plus) |
 | Equipe Développement  | Microsoft                 | Community        | Entity Framework Plus Contributors |
 | Communauté Github      | [![Entity Framework Core](https://img.shields.io/github/contributors/dotnet/efcore?style=social)](https://github.com/dotnet/efcore) | [![Dapper](https://img.shields.io/github/contributors/DapperLib/Dapper?style=social)](https://github.com/DapperLib/Dapper) | [![Entity Framework Plus](https://img.shields.io/github/contributors/zzzprojects/EntityFramework-Plus?style=social)](https://github.com/zzzprojects/EntityFramework-Plus) |
 | Communauté StackOverflow | [![Entity Framework Core](https://img.shields.io/stackexchange/stackoverflow/t/entity-framework-core?label=Entity%20Framework%20Core&logo=stackoverflow&style=social)](https://stackoverflow.com/questions/tagged/entity-framework-core) | [![Dapper](https://img.shields.io/stackexchange/stackoverflow/t/dapper?label=Dapper&logo=stackoverflow&style=social)](https://stackoverflow.com/questions/tagged/dapper) | [![Entity Framework Plus](https://img.shields.io/stackexchange/stackoverflow/t/entity-framework-plus?label=Entity%20Framework%20Plus&logo=stackoverflow&style=social)](https://stackoverflow.com/questions/tagged/entity-framework-plus) |
-| Documentation          | 5                         | 5                | 4                         |
-| Prise Politique        | 5                         | 5                | 5                         |
+| Documentation          | 3                         | 3                | 2                         |
+| Prise Politique        | 3                         | 3                | 3                         |
 | Tarifs                 | Gratuit                   | Gratuit          | Gratuit                   |
 | License                | MIT                       | MIT              | Apache 2.0                |
-| Total                  | 46                        | 45               | 39                        |
+| Total                  | 31                        | 27               | 17                        |
 
 
 ## Notes:
 
-Les notes sont attribuées sur une échelle de 1 à 5, 1 étant la plus mauvaise et 5 la meilleure.
+Les notes sont attribuées sur une échelle de 1 à 3, 1 étant la plus mauvaise et 3 la meilleure.
 - La rapidité, la popularité, la maturité et les releases concernent la performance et l'adoption des frameworks.
 - Les bonnes pratiques, les stars Github, l'équipe de développement et la communauté Github indiquent la santé et la viabilité des projets.
 - Le dernier commit, les sponsors et la communauté StackOverflow reflètent l'activité et le soutien des frameworks.

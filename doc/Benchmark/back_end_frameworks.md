@@ -12,25 +12,25 @@ Le tableau ci-dessous compare trois frameworks C# populaires pour le développem
 
 | Critères           | ASP.NET Core       | NancyFx            | ServiceStack       |
 |--------------------|--------------------|--------------------|--------------------|
-| Rapidité           | 5                  | 5                  | 5                  |
-| Popularité         | 5                  | 3                  | 4                  |
-| Maturité           | 5                  | 5                  | 5                  |
-| Releases           | 5                  | 5                  | 5                  |
-| Bonnes pratiques   | 5                  | 4                  | 4                  |
+| Rapidité           | 3                  | 3                  | 3                  |
+| Popularité         | 3                  | 1                  | 2                  |
+| Maturité           | 3                  | 3                  | 3                  |
+| Releases           | 3                  | 2                  | 2                  |
+| Bonnes pratiques   | 3                  | 2                  | 2                  |
 | Stars Github       | [![ASP.NET Core](https://img.shields.io/github/stars/aspnet/AspNetCore?style=social)](https://github.com/aspnet/AspNetCore) | [![NancyFx](https://img.shields.io/github/stars/NancyFx/Nancy?style=social)](https://github.com/NancyFx/Nancy) | [![ServiceStack](https://img.shields.io/github/stars/ServiceStack/ServiceStack?style=social)](https://github.com/ServiceStack/ServiceStack) |
 | Equipe Développement | Microsoft       | NancyFx Contributors | ServiceStack Contributors |
 | Communauté Github  | [![ASP.NET Core](https://img.shields.io/github/contributors/aspnet/AspNetCore?style=social)](https://github.com/aspnet/AspNetCore) | [![NancyFx](https://img.shields.io/github/contributors/NancyFx/Nancy?style=social)](https://github.com/NancyFx/Nancy) | [![ServiceStack](https://img.shields.io/github/contributors/ServiceStack/ServiceStack?style=social)](https://github.com/ServiceStack/ServiceStack) |
 | Communauté StackOverflow | [![ASP.NET Core](https://img.shields.io/stackexchange/stackoverflow/t/asp.net-core?label=ASP.NET%20Core&logo=stackoverflow&style=social)](https://stackoverflow.com/questions/tagged/asp.net-core) | [![NancyFx](https://img.shields.io/stackexchange/stackoverflow/t/nancy?label=NancyFx&logo=stackoverflow&style=social)](https://stackoverflow.com/questions/tagged/nancy) | [![ServiceStack](https://img.shields.io/stackexchange/stackoverflow/t/servicestack?label=ServiceStack&logo=stackoverflow&style=social)](https://stackoverflow.com/questions/tagged/servicestack) |
-| Documentation      | 5                  | 5                  | 5                  |
-| Prise Politique    | 5                  | 5                  | 5                  |
+| Documentation      | 3                  | 2                  | 2                  |
+| Prise Politique    | 3                  | 3                  | 3                  |
 | Tarifs             | Gratuit            | Gratuit            | Gratuit            |
 | License            | MIT                | MIT                | Apache 2.0         |
-| Total              | 48                 | 42                 | 43                 |
+| Total              | 33                 | 21                 | 24                 |
 
 
 ## Notes:
 
-Les notes sont attribuées sur une échelle de 1 à 5, 1 étant la plus mauvaise et 5 la meilleure.
+Les notes sont attribuées sur une échelle de 1 à 3, 1 étant la plus mauvaise et 3 la meilleure.
 - La rapidité, la popularité, la maturité et les releases concernent la performance et l'adoption des frameworks.
 - Les bonnes pratiques, les stars Github, l'équipe de développement et la communauté Github indiquent la santé et la viabilité des projets.
 - Le dernier commit, les sponsors et la communauté StackOverflow reflètent l'activité et le soutien des frameworks.
