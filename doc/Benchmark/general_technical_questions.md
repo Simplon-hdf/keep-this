@@ -12,7 +12,7 @@ La table suivante présente une série de questions cruciales pour notre projet,
 | Rendu | Client (CSR) |
 | Hébergement | Serveur Perso |
 | Langage |  |
-| • Front-End | Javascript - REACT |
+| • Front-End | Typescript - REACT |
 | • Back-End | C# .NET core  |
 | • ORM | Entity Framework|
 |Futur du projet| embauche |
