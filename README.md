@@ -136,7 +136,7 @@ En combinant ces technologies, nous serons en mesure de développer une applicat
 - ![.NET Core](https://img.shields.io/badge/.NET%20Core-5C2D91.svg?style=for-the-badge&logo=.net&logoColor=white)
 - ![Entity Framework Core](https://img.shields.io/badge/Entity%20Framework%20Core-512BD4.svg?style=for-the-badge&logo=.net&logoColor=white)
 - ![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
-- ![Typescript](https://img.shields.io/badge/JavaScript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+- ![TypeScript](https://img.shields.io/badge/TypeScript-%23323330.svg?style=for-the-badge&logo=typescript&logoColor=%3178C6)
 - ![React](https://img.shields.io/badge/React-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
 - ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
 - ![JIRA](https://img.shields.io/badge/JIRA-0052CC.svg?style=for-the-badge&logo=jira&logoColor=white)
