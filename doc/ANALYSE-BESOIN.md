@@ -28,11 +28,11 @@ Chaque élément de l'interface a été pensé pour minimiser les distractions e
 
 En somme, notre interface utilisateur offre une expérience sans friction, permettant aux utilisateurs de se concentrer pleinement sur leurs idées et leur créativité. En éliminant les obstacles techniques, nous facilitons une prise de notes rapide et efficace, essentielle pour une productivité optimale.
 
-## Différer les étapes.
+## Différer les étapes
 
 ![Defering steps illustration](assets/needsAnalysis-deferring_steps.jpg)
 
-Lors de la prise de notes, il est souvent crucial de reconnaître que l'utilisateur peut manquer de temps pour compléter toutes les interactions nécessaires à l'enregistrement complet de son mémo. Pour répondre efficacement à cette réalité, il est essentiel de prioriser l'enregistrement du contenu comme première étape du processus. Que l'on peut détailler en quelques point clé: 
+Lors de la prise de notes, il est souvent crucial de reconnaître que l'utilisateur peut manquer de temps pour compléter toutes les interactions nécessaires à l'enregistrement complet de son mémo. Pour répondre efficacement à cette réalité, il est essentiel de prioriser l'enregistrement du contenu comme première étape du processus. Que l'on peut détailler en quelques point clé:
 
 1. Priorité au contenu initial : La première action lors de la prise de note devrait être la saisie rapide du contenu essentiel. Cette étape assure que les informations critiques sont capturées immédiatement, réduisant le risque de les oublier plus tard.
 
@@ -41,7 +41,6 @@ Lors de la prise de notes, il est souvent crucial de reconnaître que l'utilisat
 3. Intégration d'outils d'assistance : L'intégration de fonctionnalités telles que la suggestion d'association au notes donnera la possibilité d'organiser rapidement son mémo pour le classer rapidement est simplement dans une note.
 
 En adoptant une approche modulaire et flexible pour l'enregistrement des notes, on respecte non seulement les contraintes de temps des utilisateurs mais on améliore également la qualité et l'utilité des notes prises. Cette stratégie permet d'assurer que l'information essentielle est capturée immédiatement, tout en offrant l'opportunité d'enrichir et de préciser les détails plus tard, à un moment plus opportun.
-
 
 ## Utiliser les métadonnées
 
