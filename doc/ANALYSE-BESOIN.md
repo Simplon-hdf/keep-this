@@ -2,9 +2,9 @@
 
 ## Introduction
 
-Dans un context où les informations arrivent de partout et à des moments inopportuns, leurs enregistrements demande soit un bonne mémoire, soit une disipline pour la prise de note que tout le monde ne possède pas. Même si il existe des applications pour prendre des notes. Leurs utilisation n'est pas toujours adapté à la situation, ou ne permet pas leurs rassemblement.
+Dans un context où les informations arrivent de partout et à des moments inopportuns, leurs enregistrements demandent, une bonne mémoire, une discipline, pour la prise de note que tout le monde ne possède pas. Même si il existe des applications pour prendre des notes. Leurs utilisation n'est pas toujours adapté à la situation, ou ne permet pas leurs rassemblement.
 
-Le concepte de l'application est d'offir à un utilisateur la possibilité d'enregistrer une information dans un mémorandum sans en préciser le contexte et de le lui suggerer après la création du mémo ou de lui en donner la possibilité d'en créer un.
+Le concept de l'application est d'offir à un utilisateur la possibilité d'enregistrer une information dans un mémorandum sans en préciser le contexte et de le lui suggerer après la création du mémo ou de lui en donner la possibilité d'en créer un.
 
 ## Problèmes
 
@@ -50,7 +50,7 @@ Les interactions des utilisateurs avec notre application ne se résument pas à 
 
 Grâce à cette technologie, notre application apprend de manière autonome comment les utilisateurs pense et organise ses informations, ce qui lui permet d'offrir des suggestions. Ces suggestions visent à améliorer les interactions futures en anticipant les besoins des utilisateurs avant même qu'ils ne les expriment explicitement. En somme, nous transformons les actions quotidiennes de nos utilisateurs en apprentissages profonds, rendant notre application non seulement plus intuitive mais aussi plus intelligente, capable de s'adapter et de répondre de manière proactive aux exigences de ses utilisateurs.
 
-## Multipicipé des points d'enregistrement
+## Multiplicité des points d'enregistrement
 
 ![Multiple registration points illustration](assets/needsAnalysis-Multiple_registration_points.jpg)
 
@@ -62,7 +62,7 @@ L'intégration d'une API robuste permet de synchroniser les données à travers 
 
 ![Confidentiality illustration](assets/needsAnalysis-Confidentiality.jpg)
 
-les données confier par notre utilisateur sont privées, il est donc de notre responsabilité de proteger ces données pour quelle ne soit consultable que par les personnes autorisées.
+les données confiées par notre utilisateur sont privées, il est donc de notre responsabilité de protéger ces données pour qu'elle ne soit consultable que par les personnes autorisées.
 
 Dans le cadre de notre applications, la confidentialité des données utilisateurs est primordiale. Ces données, souvent personnelles et sensibles, requièrent une protection rigoureuse pour s'assurer qu'elles restent accessibles uniquement aux personnes autorisées. Ceci implique l'implémentation de mesures de sécurité robustes à plusieurs niveaux.
 
