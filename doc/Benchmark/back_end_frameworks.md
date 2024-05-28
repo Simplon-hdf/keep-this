@@ -10,6 +10,16 @@ Dans le paysage du développement d'API, de nombreux langages et frameworks s'of
 
 Le tableau ci-dessous compare trois frameworks C# populaires pour le développement d'API : ASP.NET Core, NancyFx et ServiceStack.
 
+## Notes:
+
+Les notes sont attribuées sur une échelle de 1 à 3, 1 étant la plus mauvaise et 3 la meilleure.
+- La rapidité, la popularité, la maturité et les releases concernent la performance et l'adoption des frameworks.
+- Les bonnes pratiques, les stars Github, l'équipe de développement et la communauté Github indiquent la santé et la viabilité des projets.
+- Le dernier commit, les sponsors et la communauté StackOverflow reflètent l'activité et le soutien des frameworks.
+- La documentation, la prise politique, les tarifs et la licence concernent des aspects pratiques pour les développeurs.
+
+
+
 | Critères           | ASP.NET Core       | NancyFx            | ServiceStack       |
 |--------------------|--------------------|--------------------|--------------------|
 | Rapidité           | 3                  | 3                  | 3                  |
@@ -28,13 +38,6 @@ Le tableau ci-dessous compare trois frameworks C# populaires pour le développem
 | Total              | 33                 | 21                 | 24                 |
 
 
-## Notes:
-
-Les notes sont attribuées sur une échelle de 1 à 3, 1 étant la plus mauvaise et 3 la meilleure.
-- La rapidité, la popularité, la maturité et les releases concernent la performance et l'adoption des frameworks.
-- Les bonnes pratiques, les stars Github, l'équipe de développement et la communauté Github indiquent la santé et la viabilité des projets.
-- Le dernier commit, les sponsors et la communauté StackOverflow reflètent l'activité et le soutien des frameworks.
-- La documentation, la prise politique, les tarifs et la licence concernent des aspects pratiques pour les développeurs.
 
 
 # Conclusion : 
