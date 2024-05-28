@@ -1,6 +1,8 @@
-# Regles de gestion
+# Règles de gestion
 
-## Compte
+## Pour la V1
+
+### Compte
 
 - un visiteur peut créer un compte
 - un compte doit avoir une adresse e-mail valide
@@ -10,19 +12,19 @@
 - un utilisateur peut modifier le mot de passe de son compte
 - un utilisateur peut modifier son nom utilisateur
 
-## Post-it
+### Note
 
-- un utilisateur peut créer un post-it
-- un post-it doit avoir un auteur
-- un post-it doit avoir une date de création
-- un post-it doit avoir un contenu
-- un post-it peut être associé à un ou plusieurs carnet
-- un post-it peut voir son contenu être modifier
-- un post-it doit avoir un statut (Disponible ou Archivé)
-- un post-it peut avoir une date d’archivage
-- un post-it doit avoir un Etat (Associé ou Non associé)
+- un utilisateur peut créer un note
+- un note doit avoir un auteur
+- un note doit avoir une date de création
+- un note doit avoir un contenu
+- un note peut être associé à un ou plusieurs carnet
+- un note peut voir son contenu être modifié
+- un note doit avoir un statut (Disponible ou Archivé)
+- un note peut avoir une date d’archivage
+- un note doit avoir un Etat (Associé ou Non associé)
 
-## Carnet
+### Carnet
 
 - un utilisateur peut créer un carnet
 - un carnet doit avoir un titre
@@ -32,8 +34,11 @@
 - un carnet peut avoir une date d’archivage
 - Un carnet peut avoir un ou plusieurs post-it
 
-## Mots
+## Pour une V2
+
+
+### Mots
 
 - un mot doit avoir un taux d’utilisation
-- un mot doit avoir une orthographe
+- un mot doit avoir une graphie
 - un mot doit avoir un taux d’association avec un autre mot
