@@ -5,6 +5,16 @@ Nous avons opté pour TypeScript  comme langage front-end en raison de sa polyva
 Le présent document fait office de **fiche comparative** ou **Benchmark** concernant les différents Frameworks Front-end disponibles.<br>
 Nous nous sommes appuyés sur ce document afin de rédiger notre document de proposition technique.<br>
 
+## Notes:
+
+Les notes sont attribuées sur une échelle de 1 à 3, 1 étant la plus mauvaise et 3 la meilleure.
+- La rapidité, la popularité, la maturité et les releases concernent la performance et l'adoption des frameworks.
+- Les bonnes pratiques, les stars Github, l'équipe de développement et la communauté Github indiquent la santé et la viabilité des projets.
+- Le dernier commit, les sponsors et la communauté StackOverflow reflètent l'activité et le soutien des frameworks.
+- La documentation, la prise politique, les tarifs et la licence concernent des aspects pratiques pour les développeurs.
+
+
+
 | Critères                 | React | Angular | Vue.js |
 | ------------------------ | ----- | ------- | ------ |
 | Personnalisation         |   3   |    2    |   3    |
@@ -25,13 +35,6 @@ Communauté StackOverflow | [![REACT](https://img.shields.io/stackexchange/stack
 | Total                    |  39 |   30    |  28    |
 
 
-## Notes:
-
-Les notes sont attribuées sur une échelle de 1 à 3, 1 étant la plus mauvaise et 3 la meilleure.
-- La rapidité, la popularité, la maturité et les releases concernent la performance et l'adoption des frameworks.
-- Les bonnes pratiques, les stars Github, l'équipe de développement et la communauté Github indiquent la santé et la viabilité des projets.
-- Le dernier commit, les sponsors et la communauté StackOverflow reflètent l'activité et le soutien des frameworks.
-- La documentation, la prise politique, les tarifs et la licence concernent des aspects pratiques pour les développeurs.
 
 
 ## Conclusion:
@@ -41,5 +44,7 @@ React, Angular et Vue.js sont tous des frameworks JavaScript puissants et popula
 React est un excellent choix pour les applications web performantes et évolutives, avec une communauté vaste et active.
 Angular est un bon choix pour les applications web d'entreprise complexes, avec une structure claire et une opinion forte.
 Vue.js est un choix flexible et convivial pour les applications web de toutes tailles, avec une courbe d'apprentissage facile et une grande communauté.
+
+En raison de sa performance, de sa scalabilité, et de sa vaste communauté active, nous avons choisi d'utiliser React pour notre application web.
 
 
