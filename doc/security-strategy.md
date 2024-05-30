@@ -21,7 +21,8 @@
 
 **Sécurité des applications:**
 
-- **Validation des entrées:** Toutes les entrées utilisateurs  seront rigouresement validées pour empêcher les injections de code malveillant et autres attaques. Les entrées doivent correspondrent au
+- **Validation des entrées:** Toutes les entrées utilisateurs  seront rigoureusement validées pour empêcher les injections de code malveillant et autres attaques.
+
 - **Tests de sécurité:** Des tests de sécurité réguliers de l'application serviront à identifier et corriger les vulnérabilités.
 - **Mise à jour des bibliothèques:** Nous allons mettre régulièrement à jour les bibliothèques tierces utilisées par l'application pour corriger les vulnérabilités connues.
 
@@ -33,10 +34,10 @@
 ### Politique de mot de passe :
 
 - Pour garantir la sécurité des comptes utilisateurs, notre application impose des exigences strictes en matière de mot de passe. Les mots de passe doivent contenir au moins **une lettre minuscule, une lettre majuscule, un chiffre, un caractère spécial,** et doivent comporter **au moins 12 caractères.**
-- Les tentatives de connexion sont limitées pour prévenir les attaques par force brute. Au bout de 3 tentatives, l’athentification est bloquée pendant **15min.**
+- Les tentatives de connexion sont limitées pour prévenir les attaques par force brute. Au bout de 3 tentatives, l’authentification est bloquée pendant **15min.**
 - Les mots de passe sont stockés de manière sécurisée en utilisant le **hachage Bcrypt avec salage** pour renforcer la protection des données.
 - En cas de besoin, les utilisateurs peuvent réinitialiser leur mot de passe via un lien de réinitialisation valide pendant 24 heures.
-- On va utiliser des mécanismes d'authentification forts tels que JWT(JSON Web Tokens) ou des sessions sécurisées avec des identifiants uniques et aléatoires. Les sessions utilisateurs ne peuvent être valides indéfiniment, il faut donc mettre en place des mécanismes de renouvellement des jetons et des sessions pour éviter les attaques de session volée. par exemple tous les **3 mois**, l’utilisateur doit se reconnecter sur l’application pour renouveller sa session.
+- On va utiliser des mécanismes d'authentification forts tels que JWT(JSON Web Tokens) ou des sessions sécurisées avec des identifiants uniques et aléatoires. Les sessions utilisateurs ne peuvent être valides indéfiniment, il faut donc mettre en place des mécanismes de renouvellement des jetons et des sessions pour éviter les attaques de session volée. Par exemple tous les **3 mois**, l’utilisateur doit se reconnecter sur l’application pour renouveler sa session.
 - Les utilisateurs doivent obligatoirement **se réauthentifier** pour effectuer des actions majeures concernant leur compte.
 
 
@@ -54,7 +55,7 @@ Dans notre application, les utilisateurs sont invités à choisir un pseudonyme 
 **2. Minimisation des Données**
 
 - **Collecte Limitée** : Seules les données strictement nécessaires aux finalités spécifiques de l'application sont collectées.
-- **Suppression des Données Inutiles** : Les données personnelles qui ne sont plus nécessaires sont supprimées ou anonymisées. On donne aussi la possibilité aux utilisateurs d’archiver leur note, **après 3 ans de conservation**, ceux-ci seront définitivement supprimés de la base de données.
+- **Suppression des Données Inutiles** : Les données personnelles qui ne sont plus nécessaires sont supprimées ou anonymisées. On donne aussi la possibilité aux utilisateurs d’archiver leurs notes, **après 3 ans de conservation**, ceux-ci seront définitivement supprimées de la base de données.
 
 Nous collectons uniquement les informations essentielles pour fournir le service de prise de notes, minimisant ainsi la quantité de données personnelles stockées.
 
@@ -88,12 +89,12 @@ Nous allons mettre en place une journalisation des activités de l’application
 
 **8. Actions en Cas de Perte de Données**
 
-- **Notification Immédiate** : En cas de perte de données, une notification est envoyée dans un délais de 72 H **maximum** aux autorités de protection des données compétentes (CNIL **Commission nationale de l'informatique et des libertés)** et aux utilisateurs concernés.
+- **Notification Immédiate** : En cas de perte de données, une notification est envoyée dans un délai de 72 H **maximum** aux autorités de protection des données compétentes (CNIL **Commission nationale de l'informatique et des libertés)** et aux utilisateurs concernés.
 - **Analyse des Causes** : Une enquête est menée pour déterminer les causes de la perte de données et prendre des mesures correctives pour éviter toute récurrence.
 - **Mesures de Mitigation** : Des mesures sont prises pour limiter les conséquences de la perte de données, telles que la restauration à partir de sauvegardes récentes si possible.
 - **Communication Transparente** : Les utilisateurs sont informés de manière transparente sur la nature et l'ampleur de la perte de données, ainsi que sur les mesures prises pour remédier à la situation.
 
-En mettant en œuvre ces stratégies, nous pourront protéger efficacement les données des utilisateurs, minimiser les risques de non-conformité au RGPD et renforcer la confiance de nos utilisateurs.
+En mettant en œuvre ces stratégies, nous pourrons protéger efficacement les données des utilisateurs, minimiser les risques de non-conformité au RGPD et renforcer la confiance de nos utilisateurs.
 
 
 ___
