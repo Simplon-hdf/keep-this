@@ -4,6 +4,15 @@ Lors du développement d'API avec ASP.NET Core, l'utilisation d'un Object-Relati
 
 Ce tableau compare trois ORM populaires pour les API ASP.NET Core : Entity Framework Core, Dapper, et Entity Framework Plus.
 
+## Notes:
+
+Les notes sont attribuées sur une échelle de 1 à 3, 1 étant la plus mauvaise et 3 la meilleure.
+- La rapidité, la popularité, la maturité et les releases concernent la performance et l'adoption des frameworks.
+- Les bonnes pratiques, les stars Github, l'équipe de développement et la communauté Github indiquent la santé et la viabilité des projets.
+- Le dernier commit, les sponsors et la communauté StackOverflow reflètent l'activité et le soutien des frameworks.
+- La documentation, la prise politique, les tarifs et la licence concernent des aspects pratiques pour les développeurs.
+
+
 | Critères               | Entity Framework Core     | Dapper           | Entity Framework Plus     |
 |------------------------|---------------------------|------------------|---------------------------|
 | Rapidité               | 2                         | 3                | 2                         |
@@ -22,13 +31,6 @@ Ce tableau compare trois ORM populaires pour les API ASP.NET Core : Entity Frame
 | Total                  | 31                        | 27               | 17                        |
 
 
-## Notes:
-
-Les notes sont attribuées sur une échelle de 1 à 3, 1 étant la plus mauvaise et 3 la meilleure.
-- La rapidité, la popularité, la maturité et les releases concernent la performance et l'adoption des frameworks.
-- Les bonnes pratiques, les stars Github, l'équipe de développement et la communauté Github indiquent la santé et la viabilité des projets.
-- Le dernier commit, les sponsors et la communauté StackOverflow reflètent l'activité et le soutien des frameworks.
-- La documentation, la prise politique, les tarifs et la licence concernent des aspects pratiques pour les développeurs.
 
 # Conclusion : 
 
