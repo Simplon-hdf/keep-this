@@ -54,31 +54,3 @@ Nous allons mettre en place une journalisation des activités de l’application
 En mettant en œuvre ces stratégies, nous pourrons protéger efficacement les données des utilisateurs, minimiser les risques de non-conformité au RGPD et renforcer la confiance de nos utilisateurs.
 
 
-### Politique de mot de passe :
-
-- Pour garantir la sécurité des comptes utilisateurs, notre application impose des exigences strictes en matière de mot de passe. Les mots de passe doivent contenir au moins **une lettre minuscule, une lettre majuscule, un chiffre, un caractère spécial,** et doivent comporter **au moins 12 caractères.**
-- Les tentatives de connexion sont limitées pour prévenir les attaques par force brute. Au bout de 3 tentatives, l’authentification est bloquée pendant **15min.**
-- Les mots de passe sont stockés de manière sécurisée en utilisant le **hachage Bcrypt avec salage** pour renforcer la protection des données.
-- En cas de besoin, les utilisateurs peuvent réinitialiser leur mot de passe via un lien de réinitialisation valide pendant 24 heures.
-- On va utiliser des mécanismes d'authentification forts tels que JWT(JSON Web Tokens) ou des sessions sécurisées avec des identifiants uniques et aléatoires. Les sessions utilisateurs ne peuvent être valides indéfiniment, il faut donc mettre en place des mécanismes de renouvellement des jetons et des sessions pour éviter les attaques de session volée. Par exemple tous les **3 mois**, l’utilisateur doit se reconnecter sur l’application pour renouveler sa session.
-- Les utilisateurs doivent obligatoirement **se réauthentifier** pour effectuer des actions majeures concernant leur compte.
-
-
-<details>
-<summary>Liste des recommandatiosn ANSSI pour l’authentification :</summary>
-
-- **R2** : Privilégier l’utilisation de moyens d’authentification forts
-- **R3**:  Conduire une analyse de risque
-- **R5** : Générer les éléments aléatoires avec un générateur de nombres aléatoires robuste
-- **R6** : Remettre les facteurs d’authentification au travers de canaux sécurisés
-- **R7** : Mettre en place un processus de renouvellement des facteurs d’authentification
-- **R10** : Limiter dans le temps le nombre de tentatives d’authentification
-- **R11** : Réaliser l’authentification au travers d’un canal sécurisé
-- **R12** : Limiter la durée de validité d’une session authentifiée
-- **R13** : Protéger les données d’authentification stockées par le vérifieur
-- **R20** : Mettre en place une politique de sécurité des mots de passe
-- **R21** : Imposer une longueur minimale pour les mots de passe
-- **R23** : Mettre en œuvre des règles sur la complexité des mots de passe
-- **R28** : Utiliser un sel aléatoire long
-- **R30** : Proposer une méthode de recouvrement d’accès
-</details>
