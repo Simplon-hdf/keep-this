@@ -5,15 +5,14 @@ La table suivante présente une série de questions cruciales pour notre projet,
 
 | Question  | Réponse  |
 |---|---|
-| Machine Learning  | Oui |
+| Machine Learning  | Non |
 | Asynchrone  | Oui |
 | Architecture | API |
 | SEO | Oui |
 | Rendu | Client (CSR) |
 | Hébergement | Serveur Perso |
 | Langage |  |
-| • Front-End | Typescript - REACT |
-| • Back-End | C# .NET core  |
-| • ORM | Entity Framework|
+| • Front-End | Typescript  |
+| • Back-End | C#  |
 |Futur du projet| embauche |
-| BDD | PostregreSQL (SQL Relationnelle) |
+| BDD | SQL Relationnelle|
