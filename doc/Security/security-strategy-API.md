@@ -1,10 +1,10 @@
-# Securisation de l'API
+# Sécurisation de l'API
 
 ## Introduction
 
 Dans le cadre de la réalisation de notre application nous avons fait le choix de centraliser tous les enregistrements grâce à une API (interface de programmation d'application). Cette API aura à traiter des données personnelles sensibles de nos utilisateurs comme en autres leurs nom, leurs adresses e-mail, leurs notes, …
 
-Ces informations soulèvent des questions de sécurité quant à la protection de ces informations contre l’accès et l’utilisation non autorisée. En appliquant les recommandation de l’ainsi et en suivant le concepte des trois piliers nous pourrions être en mesure de réduire la possibilité à des personnes malveillante d'accéder à ses données.
+Ces informations soulèvent des questions de sécurité quant à la protection de ces informations contre l’accès et l’utilisation non autorisée. En appliquant les recommandation de l’ainsi et en suivant le concept des trois piliers nous pourrions être en mesure de réduire la possibilité à des personnes malveillante d'accéder à ses données.
 
 ## Liste de recommandation à appliquer
 
@@ -66,7 +66,7 @@ Toutes les données provenant de sources externes doivent être validées et net
 
 L’implémentation de tokens CSRF pour sécuriser les requêtes XHR (XMLHttpRequest). Ces tokens vérifient que les requêtes proviennent de sources autorisées.
 
-- Préflight pour les appels CORS
+- Preflight pour les appels CORS
 
 La configuration des pré-requêtes CORS (Cross-Origin Resource Sharing) valide les requêtes cross-origin avant leur exécution. Cela empêche les requêtes malveillantes d'accéder aux ressources.
 

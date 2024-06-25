@@ -1,17 +1,19 @@
-# Introduction 
+# choix ORM
+
+## Introduction
 
 Lors du développement d'API avec ASP.NET Core, l'utilisation d'un Object-Relational Mapper (ORM) peut simplifier considérablement l'accès aux données et la manipulation des requêtes SQL. Un ORM permet de s'abstraire du code SQL brut et de travailler avec des objets C# plus intuitifs, réduisant ainsi la complexité et les erreurs potentielles.
 
 Ce tableau compare trois ORM populaires pour les API ASP.NET Core : Entity Framework Core, Dapper, et Entity Framework Plus.
 
-## Notes:
+## Notes
 
 Les notes sont attribuées sur une échelle de 1 à 3, 1 étant la plus mauvaise et 3 la meilleure.
+
 - La rapidité, la popularité, la maturité et les releases concernent la performance et l'adoption des frameworks.
 - Les bonnes pratiques, les stars Github, l'équipe de développement et la communauté Github indiquent la santé et la viabilité des projets.
 - Le dernier commit, les sponsors et la communauté StackOverflow reflètent l'activité et le soutien des frameworks.
 - La documentation, la prise politique, les tarifs et la licence concernent des aspects pratiques pour les développeurs.
-
 
 | Critères               | Entity Framework Core     | Dapper           | Entity Framework Plus     |
 |------------------------|---------------------------|------------------|---------------------------|
@@ -21,7 +23,7 @@ Les notes sont attribuées sur une échelle de 1 à 3, 1 étant la plus mauvaise
 | Releases               | 3                         | 3                | 2                         |
 | Bonnes pratiques       | 3                         | 2                | 2                         |
 | Stars Github           | [![Entity Framework Core](https://img.shields.io/github/stars/dotnet/efcore?style=social)](https://github.com/dotnet/efcore) | [![Dapper](https://img.shields.io/github/stars/DapperLib/Dapper?style=social)](https://github.com/DapperLib/Dapper) | [![Entity Framework Plus](https://img.shields.io/github/stars/zzzprojects/EntityFramework-Plus?style=social)](https://github.com/zzzprojects/EntityFramework-Plus) |
-| Equipe Développement  | Microsoft                 | Community        | Entity Framework Plus Contributors |
+| Équipe Développement  | Microsoft                 | Community        | Entity Framework Plus Contributors |
 | Communauté Github      | [![Entity Framework Core](https://img.shields.io/github/contributors/dotnet/efcore?style=social)](https://github.com/dotnet/efcore) | [![Dapper](https://img.shields.io/github/contributors/DapperLib/Dapper?style=social)](https://github.com/DapperLib/Dapper) | [![Entity Framework Plus](https://img.shields.io/github/contributors/zzzprojects/EntityFramework-Plus?style=social)](https://github.com/zzzprojects/EntityFramework-Plus) |
 | Communauté StackOverflow | [![Entity Framework Core](https://img.shields.io/stackexchange/stackoverflow/t/entity-framework-core?label=Entity%20Framework%20Core&logo=stackoverflow&style=social)](https://stackoverflow.com/questions/tagged/entity-framework-core) | [![Dapper](https://img.shields.io/stackexchange/stackoverflow/t/dapper?label=Dapper&logo=stackoverflow&style=social)](https://stackoverflow.com/questions/tagged/dapper) | [![Entity Framework Plus](https://img.shields.io/stackexchange/stackoverflow/t/entity-framework-plus?label=Entity%20Framework%20Plus&logo=stackoverflow&style=social)](https://stackoverflow.com/questions/tagged/entity-framework-plus) |
 | Documentation          | 3                         | 3                | 2                         |
@@ -30,9 +32,7 @@ Les notes sont attribuées sur une échelle de 1 à 3, 1 étant la plus mauvaise
 | License                | MIT                       | MIT              | Apache 2.0                |
 | Total                  | 31                        | 27               | 17                        |
 
-
-
-# Conclusion : 
+## Conclusion
 
 En analysant le tableau comparatif, Entity Framework Core se distingue comme le choix le plus populaire et mature pour les ORM ASP.NET Core. Il offre plusieurs avantages clés :
 
