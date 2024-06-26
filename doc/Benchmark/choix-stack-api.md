@@ -1,6 +1,8 @@
-# Introduction :
+# Choix stack API
 
-Dans le paysage du développement d'API, de nombreux langages et frameworks s'offrent à vous. Parmi eux, C# se distingue comme un choix populaire et performant pour plusieurs raisons :
+## Introduction
+
+Dans le paysage du développement d'API, de nombreux langages et frameworks s'offrent à nous. Parmi eux, C# se distingue comme un choix populaire et performant pour plusieurs raisons :
 
 - Polyvalence: C# est un langage généraliste applicable à une large variété de tâches, y compris le développement web, mobile et back-end.
 - Performance: C# est connu pour sa rapidité d'exécution et sa gestion efficace de la mémoire, des atouts essentiels pour les API qui doivent gérer un trafic important.
@@ -10,15 +12,14 @@ Dans le paysage du développement d'API, de nombreux langages et frameworks s'of
 
 Le tableau ci-dessous compare trois frameworks C# populaires pour le développement d'API : ASP.NET Core, NancyFx et ServiceStack.
 
-## Notes:
+## Notes
 
 Les notes sont attribuées sur une échelle de 1 à 3, 1 étant la plus mauvaise et 3 la meilleure.
+
 - La rapidité, la popularité, la maturité et les releases concernent la performance et l'adoption des frameworks.
 - Les bonnes pratiques, les stars Github, l'équipe de développement et la communauté Github indiquent la santé et la viabilité des projets.
 - Le dernier commit, les sponsors et la communauté StackOverflow reflètent l'activité et le soutien des frameworks.
 - La documentation, la prise politique, les tarifs et la licence concernent des aspects pratiques pour les développeurs.
-
-
 
 | Critères           | ASP.NET Core       | NancyFx            | ServiceStack       |
 |--------------------|--------------------|--------------------|--------------------|
@@ -37,10 +38,7 @@ Les notes sont attribuées sur une échelle de 1 à 3, 1 étant la plus mauvaise
 | License            | MIT                | MIT                | Apache 2.0         |
 | Total              | 33                 | 21                 | 24                 |
 
-
-
-
-# Conclusion : 
+## Conclusion
 
 En analysant le tableau comparatif et en tenant compte des besoins de performance, de maturité, de communauté et de support, ASP.NET Core se démarque comme le choix optimal pour la plupart des projets d'API C#.
 

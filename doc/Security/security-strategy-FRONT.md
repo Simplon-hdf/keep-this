@@ -1,4 +1,4 @@
-# Stratégie de Sécurisation - Front-End
+# Sécurisation du Front-End
 
 ## Introduction
 
